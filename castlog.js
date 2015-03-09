@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 var WebSocket = require('ws');
 var ws = new WebSocket('ws://107.170.209.244/wss');
 //var ws = new WebSocket('ws://localhost:9999');

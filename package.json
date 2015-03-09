@@ -1,9 +1,8 @@
 {
   "name": "castlog",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "client for streaming logs to castlog server",
-  "main": "castlog.js",
-  "bin" : { "myapp" : "./castlog.js" },
+  "bin" : { "castlog" : "castlog.js" },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +12,7 @@
   },
   "author": "Nagappan Nachiappan",
   "license": "ISC",
+  "preferGlobal": true,
   "bugs": {
     "url": "https://github.com/n4nagappan/castlog/issues"
   },
