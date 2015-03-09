@@ -1,0 +1,23 @@
+{
+  "name": "logcast",
+  "version": "1.0.0",
+  "description": "client for streaming logs to logcast server",
+  "main": "logcast.js",
+  "bin" : { "myapp" : "./logcast.js" },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/n4nagappan/logcast.git"
+  },
+  "author": "Nagappan Nachiappan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n4nagappan/logcast/issues"
+  },
+  "homepage": "https://github.com/n4nagappan/logcast",
+  "dependencies": {
+    "ws": "^0.7.1"
+  }
+}
