@@ -1,7 +1,7 @@
 {
   "name": "castlog",
-  "version": "0.1.3",
-  "description": "client for streaming logs to castlog server",
+  "version": "0.1.4",
+  "description": "A CLI tool to stream your file logs to a web browser. Inspired from Ngrok.",
   "bin" : { "castlog" : "castlog.js" },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
