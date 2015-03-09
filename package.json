@@ -1,22 +1,22 @@
 {
-  "name": "logcast",
+  "name": "castlog",
   "version": "1.0.0",
-  "description": "client for streaming logs to logcast server",
-  "main": "logcast.js",
-  "bin" : { "myapp" : "./logcast.js" },
+  "description": "client for streaming logs to castlog server",
+  "main": "castlog.js",
+  "bin" : { "myapp" : "./castlog.js" },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/n4nagappan/logcast.git"
+    "url": "https://github.com/n4nagappan/castlog.git"
   },
   "author": "Nagappan Nachiappan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/n4nagappan/logcast/issues"
+    "url": "https://github.com/n4nagappan/castlog/issues"
   },
-  "homepage": "https://github.com/n4nagappan/logcast",
+  "homepage": "https://github.com/n4nagappan/castlog",
   "dependencies": {
     "ws": "^0.7.1"
   }
