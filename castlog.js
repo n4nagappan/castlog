@@ -16,5 +16,5 @@ ws.on('open', function(){
 
 
 ws.on('message', function( data, flags ){
-    console.log("Received a message from server : " + data);
+    console.log("Access your log stream at : " + data);
 });
